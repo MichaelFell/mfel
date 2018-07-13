@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Michael Feller</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet"> 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark topBar fixed-top">
+      <div class="container">
+        <div>
+          <img class="illuIcon" src="img/techSmallIcon.png" alt="Illustration Page Icon">
+          <h1 class="programmingHeader">Technical Art</h1>
+        </div>
+          <a href="index.html"> <img class="illuHomeIcon" src="img/techHomeIcon.png" alt="Home icon for illustration section"> </a>
+       
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container programContainer">
+
+      <!-- Portfolio Item Heading -->
+      <h2 class="my-4">Tristate G&T Renewable Energy VR Experience</h2>
+
+      <!-- Portfolio Item Row -->
+      <div class="row segment">
+
+        <div class="col-md-8">
+          <img class="OutpostImage" src="img/tristateLandscape.png" alt="Tristate Low poly landscape">
+        </div>
+
+        <div class="col-md-4">
+          <h3 class="my-3">Project Description</h3>
+          <p>This is a project I worked on with Reality Garage (based in Boulder, Colorado) over the past few months. Our client was Tristate Generation & Transmission, and we were tasked with building a Virtual Reality Guided tour of their renewable energy Co-op program. We built it to integrate with our Inspire XR platform (I have a few pages describing it on this site), which imposed a lot of unique technical constraints on the art we could use. </p>
+        </div>
+
+      </div>
+
+      <div class="row segment">
+
+        <div class="col-md-7 textBlock">
+          <p>We built this experience to run on Android phones (with the Samsung Gear VR), so we landed on a low poly art style to limit the complexity of the assets. Turns out VR is pretty computationally expensive.</p>
+          <p> The phone's processing power wasn't our only limitation, however, as we needed to be able to animate, package, and export all the assets so that we could import, place, and use them at runtime (A big pain, but essential to the InspireXR platform's operation). We ended up working with Unity's Asset Bundles system to accomplish this - but we had to be efficient to load everything in a reasonable time. </p>
+        </div>
+
+        <div class="col-md-5">
+          <img class="OutpostImage" src="img/tristateFeatures.png" alt="Tristate Low poly natural assets">
+        </div>
+
+      </div>
+
+      <div class="row segment">
+
+        <div class="col-md-6">
+          <img class="OutpostImage" src="img/tristateEnergy.png" alt="Tristate Low poly energy assets">
+        </div>
+
+        <div class="col-md-6 textBlock">
+          
+          <p>This was my largest project thus far working as a Technical Artist - I led all asset creation and animation and worked to make every scene look good in VR, with the constraints of the platform. </p>
+          <h3 class="my-3">Tools Used</h3>
+          <ul>
+            <li>Unity</li>
+            <li>Blender</li>
+            <li>Mixamo (for not-pictured humanoid characters)</li>
+            <li>Photoshop</li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Related Projects</h3>
+
+      <div class="row">
+
+      <div class="col-md-4 col-sm-6 mb-4">
+          <a href="driftwood.html">
+            <img class="img-fluid selectionImages" src="img/LPIsland.png" alt="bush snake">
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4 overlay">
+          <a href="ixrHome.html">
+            <img class="img-fluid selectionImages" src="img/ixrProjector.png" alt="rat hat">
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4 overlay">
+          <a href="tristateWork.html">
+            <img class="img-fluid selectionImages" src="img/tristateLandscape.png" alt="tools">
+          </a>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">M Feller Illustration 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

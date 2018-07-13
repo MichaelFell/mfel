@@ -1,0 +1,106 @@
+h1{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+
+.name{
+	float: center;
+	width: 100%;
+	margin: 0 auto;
+	color: #395D66;
+}
+
+.bodyContainer {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	column-count: 3;
+	column-gap: 0px;
+}
+
+.illustration {
+	width: 100%;
+	height: 100%;
+	background-color: #6DB99E;
+}
+
+.illustrationIcon {
+	width: 350px;
+	height: 350px;
+	margin-top: 40%;
+	margin: 0 auto;
+	background: url("../img/illuClosed.png") repeat 0 0;
+	background-size: cover;
+}
+
+.illustration:hover .illustrationIcon {
+	width: 350px;
+	height: 350px;
+	margin-top: 40%;
+	margin: 0 auto;
+	background: url("../img/illuOpen.png") repeat 0 0;
+	background-size: cover;
+}
+
+.illustration:hover{
+	background-color: #81c4ac;
+}
+
+
+
+.technicalArt {
+	width: 100%;
+	height: 100%;
+	background-color: #DEE0C0;
+}
+
+.technicalArtIcon {
+	width: 350px;
+	height: 350px;
+	margin-top: 40%;
+	margin: 0 auto;
+	background: url("../img/tecArtClose.png") repeat 0 0;
+	background-size: cover;
+}
+
+.technicalArt:hover .technicalArtIcon {
+	width: 350px;
+	height: 350px;
+	margin-top: 40%;
+	margin: 0 auto;
+	background: url("../img/tecArtOpen.png") repeat 0 0;
+	background-size: cover;
+}
+
+.technicalArt:hover{
+	background-color: #dfe0c5;
+}
+
+.programming {
+	width: 100%;
+	height: 100%;
+	background-color: #395D66;
+}
+
+.programming:hover{
+	background-color: #41646d;
+}
+
+.programmingIcon {
+	width: 350px;
+	height: 350px;
+	margin-top: 40%;
+	margin: 0 auto;
+	background: url("../img/progClosed.png") repeat 0 0;
+	background-size: cover;
+}
+
+.programming:hover .programmingIcon {
+	width: 350px;
+	height: 350px;
+	margin-top: 40%;
+	margin: 0 auto;
+	background: url("../img/progOpen.png") repeat 0 0;
+	background-size: cover;
+}
